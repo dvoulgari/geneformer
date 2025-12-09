@@ -48,16 +48,16 @@ We benchmarked Geneformer against traditional machine learning baselines (Logist
 ### Cell Classification
 Traditional models like XGBoost and Random Forest achieved comparable accuracy to Geneformer in binary cell type classification, likely due to the distinct biological separation between cTEC and mTEC populations.
 
-![Cell Classification Benchmarks](plots/figure4_cell_performance.png)
+![Cell Classification Benchmarks](figure4_cell_performance.png)
 *Figure: Comparison of accuracy and confidence intervals between Geneformer and baseline models for cell classification.*
 
 ### Gene Classification (Dosage Sensitivity)
 In the more complex task of predicting dosage sensitivity, Geneformer demonstrated robust performance (AUC 0.86), outperforming several baselines that required self-training/label propagation to handle missing labels.
 
-![Gene Classification ROC](plots/figure6_gene_roc.png)
+![Gene Classification ROC](figure6_gene_roc.png)
 *Figure: ROC Curves comparing Geneformer against baseline models.*
 
-![Gene Classification F1 Scores](plots/figure7_gene_f1.png)
+![Gene Classification F1 Scores](figure7_gene_f1.png)
 *Figure: F1 Scores comparing Geneformer against baseline models.*
 
 ## Tech Stack
